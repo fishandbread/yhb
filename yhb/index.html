@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<title>鱼和饼</title>　
+<script type="text/javascript">
+　　var dateArr = new Array(31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
+　　var date = new Date();
+　　var day = date.getDate();
+　　var month = date.getMonth();
+　　var year = date.getFullYear();
+　　var result = 0;
+　　for (var i = 0; i < month; i++) 
+　　{
+　　result += dateArr[i];
+　　}
+　　result += day;
+　　if (month > 1 && (year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
+　　{
+　　result += 1;
+　　}
+　　window.location = + result + '.html';　
+</script>
+</head>
+<body onLoad="javascript:fishbread();">
+<script type="text/javascript" src="1.js"></script></body>
+</html>

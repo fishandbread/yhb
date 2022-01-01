@@ -1,0 +1,132 @@
+a:link { text-decoration: none;color: blue} 
+a:active { text-decoration:blink} 
+a:hover { text-decoration:underline;color: red}  
+a:visited { text-decoration: none;color: green} 
+.note
+{
+     margin-left: 1em;
+     margin-right: 1em;
+}
+
+.note_back
+{
+    font-weight: bolder;
+}
+
+
+.lj
+{
+	color : #000000;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.abreak
+{
+    page-break-after : always;
+}
+
+.bbreak
+{
+    page-break-before : always;
+}
+
+.chapter 
+{
+    color: blue;
+    text-align: center;
+    font-size: 3em;
+}
+
+.chapterBreak 
+{
+    display: block;
+    line-height: 2em;
+}
+
+sup 
+{
+    color : Red;
+	font-size: 0.7em;
+}
+
+.verse {
+    font-weight: bolder
+}
+
+.fd
+{
+	color : #0000FF;
+    display: block;
+	font-size: 1.2em;
+    text-align: left;
+}
+.sjzw
+{
+	font-size: 1.14em;
+}
+.sjzwbz
+{
+	font-size: 0.94em;
+}
+.O0
+{
+	color : #800000;
+    padding-left : 1.5em;
+    display: block;
+	font-size: 0.95em;
+}
+
+.O1
+{
+	color : #800000;
+    padding-left : 2em;
+    display: block;
+	font-size: 0.9em;
+}
+
+.O2
+{
+	color : #800000;
+    padding-left : 2.5em;
+    display: block;
+	font-size: 0.85em;
+}
+
+.O3
+{
+    color :#800000;
+	padding-left : 3em;
+    display: block;
+	font-size: 0.8em;
+}
+
+.O4
+{
+	color : #800000;
+    padding-left : 4.5em;
+    display: block;
+	font-size: 0.75em;
+}
+.O5
+
+{
+	color : #800000;
+    padding-left : 4.5em;
+    display: block;
+	font-size: 0.7em;
+}
+
+.O8
+
+{
+    text-align: center;
+	font-size: 1em;
+}
+.text12_88 { 
+margin : 50px 2px 80px 2px; 
+font-size : 1.2em; 
+color : #CCCCCC; 
+text-align : center; 
+
+} 
