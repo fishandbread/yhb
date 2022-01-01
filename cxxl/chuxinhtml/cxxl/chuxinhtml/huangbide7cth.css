@@ -1,0 +1,238 @@
+body
+{
+margin:0;
+padding:0
+	font-family: 'Roboto Condensed',"Apple LiGothic Medium", Tahoma, Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "SimSun", sans-serif;
+	font-size: 18px;
+	color: #2A2A2A;
+	background-color: #EEEEEE;
+	background-repeat:repeat-x;
+}
+hr { 
+margin : 10px 5px 10px 10px; 
+border-top : 1px solid #008000; 
+} 
+
+.AA1 {
+    text-align:center;
+    font-size:1.3em;
+    color:#FFFFFF;
+    FONT-WEIGHT: bold;
+    padding-top: 8px;
+    padding-bottom:5px;
+    background-color:#338833;
+	text-decoration: none;
+}
+.text12_88 { 
+margin : 50px 2px 80px 2px; 
+font-size : 1.2em; 
+color : #CCCCCC; 
+text-align : center; 
+
+} 
+
+sup { 
+color : red; 
+font-size : 0.7em; 
+} 
+.AAA1 { 
+color : #800000; 
+text-align : center; 
+font-size : 1.4em; 
+} 
+.AA2 { 
+color : #008000; 
+text-align : center;
+font-weight : bolder;
+font-size : 1.2em; 
+} 
+.AA3 { 
+color : #000000;
+padding-left : 0.5em;
+text-indent : 1em; 
+font-size : 1.1em; 
+} 
+.AA4 { 
+color : #000000;
+font-weight : bolder;
+text-align : center;
+letter-spacing:2px;
+font-size : 1em; 
+} 
+.KK { 
+text-indent : 1em; 
+} 
+.BB { 
+color : #800000; 
+text-indent : 1em; 
+font-weight : bolder;
+font-size : 1em; 
+} 
+.BB1 { 
+color : #000000; 
+text-indent : 0.5em; 
+padding-left : 0.5em;
+font-weight : bolder;
+font-size : 1.1em; 
+} 
+.BB2 { 
+color : #000000; 
+text-indent : 0.6em;
+padding-left : 0.5em;
+font-size : 1em; 
+} 
+
+.BB3 { 
+color : #000000; 
+text-indent : 0.7em;
+padding-left : 0.5em;
+font-size : 0.94em; 
+} 
+.BB4 { 
+color : #000000; 
+text-indent : 0.8em;
+padding-left : 0.5em;
+font-size : 0.92em; 
+} 
+
+.CC { 
+text-align:right;
+font-style:italic;
+color:#2040A0;
+font-size : 0.96em; 
+} 
+.CC0 { 
+color:#2040A0;
+padding-left:0.5em;
+text-align:right;
+font-style:italic;
+font-size:1em; 
+font-weight:bolder; 
+} 
+.CC1 { 
+color : #000000;
+padding-left : 0.5em;
+text-indent : 0.5em; 
+font-size : 1.2em; 
+font-weight : bolder; 
+} 
+.CC2 { 
+color : #000000;
+padding-left : 0.5em;
+text-indent : 1em; 
+font-size : 1em; 
+font-weight : bolder; 
+} 
+.CC3 { 
+color : #000000;
+padding-left : 0.5em;
+text-indent : 1.5em; 
+font-size : 0.9em;
+font-weight : bolder;
+} 
+.CC4 { 
+color : #000000;
+padding-left : 0.5em;
+text-indent : 2em; 
+font-size : 0.95em; 
+} 
+.CC5 { 
+color : #000000;
+padding-left : 0.5em;
+text-indent : 2.5em; 
+font-size : 0.9em; 
+} 
+.DD { 
+color : #000000;
+padding-left : 0.5em;
+text-indent : 1em; 
+font-size : 0.9em;
+font-style:italic;
+} 
+.EE { 
+color : #000000; 
+padding-left : 1em; 
+font-weight : bolder;
+font-size : 1.1em; 
+} 
+.FF { 
+color : #800000; 
+padding-left : 4.5em; 
+display : block; 
+font-size : 0.9em; 
+} 
+.GG { 
+color : #000000; 
+font-size : 1.0em; 
+font-weight : bolder;
+
+} 
+.HH { 
+text-align:right;
+font-weight:bold;
+font-style:italic;
+font-size:10pt;
+} 
+.XX { 
+color : #800000; 
+padding-left : 0.5em; 
+display : block; 
+font-size : 1.1em; 
+font-weight : bolder; 
+} 
+.YY { 
+color : #800000; 
+padding-left : 1em; 
+display : block; 
+font-size : 1em; 
+} 
+.ZZ { 
+color : #800000; 
+padding-left : 1.5em; 
+display : block; 
+font-size : 0.9em; 
+} 
+.chapter { 
+font-size : 1.0em; 
+color : #800000; 
+text-align : center; 
+font-weight : bolder; 
+} 
+.AA2BJ {
+    padding-top: 3px;padding-bottom: 2px;
+	text-decoration: none;border:1px solid #C8C8C8;background-color:#CCCCCC;
+}
+
+#topwhite {
+
+    font-size:1em;
+    color:#FFFFFF;
+    /*text-decoration: none;*/
+
+}
+/* 向右的箭头 */
+
+.arrow-right {
+font-size: 0;
+line-height: 24px;
+border-width: 16px;
+border-color: #FFFFFF;
+border-right-width: 0;
+border-style: dashed;
+border-left-style: solid;
+border-top-color: transparent;
+border-bottom-color: transparent;
+}
+/* 向左的箭头 */
+
+.arrow-left {
+font-size: 0;
+line-height: 24px;
+border-width: 16px;
+border-color: #FFFFFF;
+border-left-width: 0;
+border-style: dashed;
+border-right-style: solid;
+border-top-color: transparent;
+border-bottom-color: transparent;
+}
