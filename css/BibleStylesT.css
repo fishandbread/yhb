@@ -1,0 +1,358 @@
+body {
+background-color:#ECEFE0;
+}
+a{ text-decoration:none}
+a:link {color:#000079;}		/* 未被访问的链接 */
+a:visited {color:#000079;}	/* 已被访问的链接 */
+a:hover {color:#AE0000;}	/* 鼠标指针移动到链接上 */
+a:active {color:#AE0000;}	/* 正在被点击的链接 */
+
+li
+{
+	LIST-STYLE-TYPE: none; DISPLAY: inline; LIST-STYLE-IMAGE: none; 
+}
+.page-navi{
+	 BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; PADDING-BOTTOM: 4px; MARGIN: 6px 2px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; DISPLAY: inline-block; BACKGROUND: #eff2fb; COLOR: #0000FF; FONT-SIZE: 1.25em; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px;
+}
+.page-navi1{
+	 BORDER-BOTTOM: #FF2D2D 1px solid; BORDER-LEFT: #000097 1px solid; PADDING-BOTTOM: 4px; MARGIN: 6px 2px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; DISPLAY: inline-block; BACKGROUND: #CEFFCE; COLOR: #0000FF; FONT-SIZE: 1.25em; BORDER-TOP: #000079 1px solid; BORDER-RIGHT: #000079 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px;
+}
+#home {
+    color : #CCCCCC; 
+    text-decoration: none;
+} 
+
+.page-navi:hover {
+	BACKGROUND: #f7be81; COLOR: #b40404;
+}
+.page-navi1:hover {
+	BACKGROUND: #f7be81; COLOR: #b40404;
+}
+.AA
+{
+    color: #000000;
+    text-indent: 1.3em;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    text-align:justify;
+    font-size: 1.26em;
+}
+.AAA
+{
+    color: #000000;
+    text-indent: 1.3em;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    text-align:justify;
+    font-size: 1.25em;
+}
+
+.BBB
+{
+    color: #000000;
+    text-indent: 1.3em;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    text-align:justify;
+    font-size: 1.25em;
+}
+
+.CCC
+{
+    color: #000000;
+    text-indent: 1.3em;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    text-align:justify;
+    font-size: 1.2em;
+}
+.DD
+{
+    color: #000000;
+    text-indent: 1.3em;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    text-align:justify;
+    font-size: 0.9em;
+}
+
+.DDD
+{
+    color: #000000;
+    text-indent: 1.3em;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    text-align:justify;
+    font-size: 1.25em;
+}
+
+.EEE
+{
+    color: #000000;
+    text-indent: 1.3em;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    text-align:justify;
+    font-size: 1.25em;
+}
+
+.FFF
+{
+    color: #000000;
+    text-indent: 1.3em;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    text-align:justify;
+    font-size: 1.25em;
+}
+.GGG
+{
+    color: #000000;
+    text-indent: 1.3em;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    text-align:justify;
+    font-size: 1.25em;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: "微软雅黑";
+}
+
+.note
+{
+     margin-left: 1em;
+     margin-right: 1em;
+}
+
+.note_back
+{
+    font-weight: bolder;
+}
+
+h2 
+{
+    display: block;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: "微软雅黑";
+}
+
+h3 
+{
+    display: block;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: "微软雅黑";
+}
+hr
+{
+ margin:10px 1px 10px 1px; border-top:1px solid #008000;
+}
+#chap1{
+FONT-WEIGHT: bold;
+ text-align:center;
+ font-size: 18px;
+ color:#000000;
+ }
+p
+{
+    font-size: 1.1em;
+}
+
+.sm
+{
+    font-size: 0.8em;
+}
+
+.hh
+{
+	color : #800000;
+    text-align: right;
+    display: block;
+	font-size: 0.75em;
+}
+  
+.abreak
+{
+    page-break-after : always;
+}
+
+.bbreak
+{
+    page-break-before : always;
+}
+
+.zjsjchapter
+{
+    color: blue;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+.chapterBreak 
+{
+    display: block;
+    line-height: 1.2em;
+}
+
+sup 
+{
+    color : Red;
+	font-size: 11px;
+}
+
+.verse {
+    font-weight: bolder;
+    font-size: 1.1em;
+
+}
+
+.O0
+{
+	color : #800000;
+    display: block;
+}
+
+.O1
+{
+	color : #800000;
+    display: block;
+}
+
+.O2
+{
+	color : #800000;
+    display: block;
+	font-size: 0.9em;
+}
+
+.O3
+{
+    color :#800000;
+    display: block;
+	font-size: 0.85em;
+}
+
+.O4
+{
+	color : #800000;
+    display: block;
+	font-size: 0.8em;
+}
+.O5
+{
+	color : #800000;
+    display: block;
+	font-size: 0.75em;
+}
+.O9
+{
+	color : #800000;
+    text-align: center;
+    display: block;
+	font-size: 1.2em;
+    font-weight: bolder;
+}
+.text12_88 { 
+margin : 50px 2px 80px 2px; 
+font-size : 1.2em; 
+color : #CCCCCC; 
+text-align : center; 
+
+}
+.text12_11 { 
+margin : 20px 2px 20px 2px; 
+font-size : 1.2em; 
+color : #CCCCCC; 
+text-align : center; 
+
+}
+
+.caidankais8 {
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+	background: #8E8E8E;
+	color: #FFF;
+    transition: top 0.5s;
+}
+
+.caidankais1 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	overflow: hidden;
+	height: 40px;
+	position: fixed;
+	background: #8E8E8E;
+	border-bottom: 1px solid #8E8E8E;
+	color: #8E8E8E;
+}
+
+
+.topBack {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80px;
+	height: 40px;
+	font-size: 16px;
+	line-height: 40px;
+}
+.topTit {
+	position: relative;
+	margin: 0 auto;
+	height: 40px;
+	line-height: 40px;
+}
+
+.topNav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 80px;
+	height: 40px;
+	font-size: 16px;
+	line-height: 40px;
+}
+.playerBtn {
+	overflow1: hidden;
+	position: relative;
+	margin: 0 auto;
+	height: 40px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.jp-previous {
+	float: left;
+	bottom: 0;
+	left: 0;
+	width: 80px;
+	height: 40px;
+	color: #0000C6;
+	line-height: 40px;
+}
+
+.jp-next {
+	float: right;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	height: 40px;
+	color: #0000C6;
+	line-height: 40px;
+}
+
+

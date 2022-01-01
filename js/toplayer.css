@@ -1,0 +1,196 @@
+.left0 {
+	position: fixed;max-width:960px;
+	top: 42; left: 0.1em;background-color: #338833;
+}
+.left {
+	position: fixed;max-width:960px;
+	top: 42; right: 8.5em;background-color: #411604;
+}
+.left1 {
+	position: fixed;max-width:960px;
+	top: 42; right: 5.1em;background-color: #411604;
+}
+.left2 {
+	position: fixed;max-width:960px;
+	top: 42; right: 2.6em;background-color: #411604;
+}
+.left3 {
+	position: fixed;max-width:960px;
+	top: 42; right: .2em;background-color: #411604;
+}
+.radius20{-webkit-border-radius:1.5em;-moz-border-radius:1.5em;border-radius:1.5em;}
+.gohome{ width:1.5em; height:1.5em;}
+.gohome a{ color:#FFFFFF; text-decoration:none; font-weight:bold; font-size:12px; display:block; text-align:center;}
+.gohome a img{display:inline-block;max-height:1.5em; margin:5px 0 0 0;}
+
+.aside,
+.aside-overlay {
+	position: fixed;
+	top: 30px; right: 0; bottom: 0; left: 0;
+}
+.aside {
+	-webkit-transition: visibility .25s;
+	transition: visibility .25s;
+	z-index: 3;
+	visibility: hidden;
+	overflow: hidden;background-color:#ECEFE0;
+}
+.aside.active {
+	-webkit-transition: none;
+	transition: none;
+	visibility: visible;
+}
+.aside-overlay {
+	background-color: black;
+	opacity: 0;
+	-webkit-transition: opacity .25s;
+	transition: opacity .25s;
+}
+.active > .aside-overlay {
+	opacity: .6;
+}
+.aside .module-footer {
+	position: absolute;
+	left: 0; right: 0; bottom: 0;
+	height: 44px;
+}
+.aside .module-footer .btn-primary:only-child {
+	margin-bottom: 12px;
+}
+.aside .module-header {
+	position: absolute;
+	left: 0; right: 0; top: 0;
+}
+.aside .module-main {
+	position: absolute;
+	left: 0; right: 0;
+	top: 60px; bottom: 44px;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	font-size:1.2em;background-color:#ECEFE0;
+}
+.aside .scrollable {
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.aside-content {
+	position: absolute;
+	bottom: 0; right: 0;
+	background-color: white;
+	-webkit-transition: transform .15s;
+	transition: transform .15s;
+	left: 0px; top: 0;
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);background-color:#ECEFE0;
+}
+.active > .aside-content {
+	-webkit-transform: translate(0%, 0%);
+	transform: translate(0%, 0%);
+}
+.module-header {
+	height: 28px;
+	border-top: 16px solid transparent;
+	padding: 0 1rem;
+}
+.module-header::after {
+	content: '';
+	display:table;
+	clear:both;
+}
+.module-title {
+   /*display: inline;*/
+	font-weight: normal;
+}
+.module-title::before {
+	content: '';
+	height: 1em; width: 10px;
+	display: inline-block;
+	box-sizing: border-box;
+	border-left: 2px solid red;
+	color: transparent;
+	vertical-align: -.22ex;
+}
+.btn-tag {
+	display: inline-block;
+	line-height: 27px;
+	margin: 10px 10px 10px 0;
+	border: 1px solid;
+	border-radius: 99px;
+	padding: 0 10px;
+	font-size: 13px;
+	text-align: center;
+	line-height: 20px;
+	color: gray;
+}
+.btn-group {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	margin-left: auto; margin-right: auto;
+}
+.btn-group-cell {
+	display: table-cell;
+	font-size: 100%;
+	font-weight: 400;
+}
+.btn-reset,
+.btn-submit {
+	display: block;
+	text-align: center;
+	line-height: 44px;
+	color: white;
+	font-size: 16px;
+}
+.btn-submit1 {
+	display: block;
+	text-align: center;
+	line-height: 44px;
+	color: white;
+	font-size: 16px;
+}
+.btn-submit2 {
+	display: block;
+	text-align: center;
+	line-height: 44px;
+	color: white;
+	font-size: 16px;
+}
+.btn-reset {
+	background-color: gray;
+}
+.btn-submit{
+	background-color: #338833;
+}
+.btn-submit1{
+	background-color: #338833;
+}
+.btn-submit2{
+	background-color: #338833;
+}
+aside a:hover {
+	text-decoration: none;
+}
+
+/* 有用的样式代码 */
+.noscroll,
+.noscroll body {
+	overflow: hidden;
+}
+.noscroll body {
+	position: relative;
+}
+
+.current-btn {
+	position: relative;
+	width: 200px;
+	height: 3.43784rem;
+	line-height: 3.43784rem;
+	margin: 0 auto;
+	background-image: linear-gradient(-225deg,#375de6 0%,#08f 100%);
+	color: #fff;
+	text-align: center;
+}
+
+.headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .2s ease-in-out;}
+.headroom--unpinned {top: -200px;}
+.headroom--pinned {top: 0;}

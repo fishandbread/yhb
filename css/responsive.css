@@ -1,0 +1,110 @@
+/* Smartphones (landscape and portrait) ----------- */
+    body {
+        font-size: large;
+    }
+
+    .container {
+       padding:10px;
+    }
+
+    div.timelineToggle {
+       float:none;
+    }
+
+    .timelineEvent div.media {
+        display:none;
+        float:none;
+    }
+
+    .timelineMinor dt {
+       font-size:1.1em;
+       white-space: normal;
+    }
+
+    .timelineMinor dd h3 {
+       font-size:1em;
+       white-space: normal;
+    }
+
+    div#timelineContainer {
+    }
+
+    .timelineMinor dd {
+        margin-left:30px;
+        padding-left:0;
+        width:98%;
+    }
+
+    .timelineEvent .media p {
+       font-size:1em;
+    }
+
+    dl.timelineMinor {
+       float:none;
+       max-width:98%;
+    }
+
+    .timelineEvent p {
+       float:none;
+       width:98%;
+    }
+
+    .timelineEvent blockquote {
+       float:none;
+       width:98%;
+       font-size:0.96em;
+    }
+}
+.logo {text-align:center;margin-top:-16px;padding-left:8px;}
+.logo h1{text-align:center;font-size:28px;}
+#top {height:120px;BORDER: #ECEFE0 1px solid; MARGIN-TOP: 2px;margin-bottom:3px; WIDTH:98%; padding-top:20px;}
+.topty {FONT-SIZE: 12px; FONT-WEIGHT: bold;FLOAT: right;PADDING:0px 4px 0px 12px;margin-top:-45px;}
+ul{list-style-type:none;clear: both;text-align: left;}
+#nav { 
+line-height: 25px; list-style-type: none; background:#666;font-size:18px; 
+} 
+#nav a { 
+display: block; width:auto; text-align:center; 
+} 
+#nav a:link { 
+color:#666; text-decoration:none; 
+} 
+#nav a:visited { 
+color:#666;text-decoration:none; 
+} 
+#nav a:hover { 
+color:#FFF;text-decoration:none;font-weight:bold; 
+} 
+#nav li { 
+float: left; width: auto; padding:0px 5px 0px 5px;background:#fff; BORDER: #aaccee 1px solid;margin:1px;
+} 
+#nav li a:hover{ 
+background:#999; 
+} 
+#nav li ul { 
+margin-left:-70%;line-height: 20px; list-style-type: none;text-align:left; 
+left: -999em;  position: absolute;
+} 
+#nav li ul li{ 
+float: left; padding:5px; 
+background: #000; 
+} 
+#nav li ul a{color:#fff;wedisplay: block; text-align:left;padding-left:3px; 
+} 
+#nav li ul a:link { 
+color:#fff; text-decoration:none; 
+} 
+#nav li ul a:visited { 
+color:#fff;text-decoration:none; 
+} 
+#nav li ul a:hover { 
+color:#F3F3F3;text-decoration:none;font-weight:normal; 
+background:#C00; 
+} 
+#nav li ul a.b{background:#C00;color:#F3F3F3;}
+#nav li:hover ul { 
+left: auto; 
+} 
+#nav li.sfhover ul { 
+left: auto; 
+} 

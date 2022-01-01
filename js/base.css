@@ -1,0 +1,521 @@
+
+dl {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+body {
+	font: 14px/1.5 "Microsoft YaHei", Î¢ÈíÑÅºÚ, SimSun, tahoma, arial; color: rgb(0, 0, 0); font-size-adjust: none; font-stretch: normal;
+}
+
+li {
+	list-style: none;
+}
+a {
+	outline: 0px; color: inherit; text-decoration: none;
+}
+.cl::after {
+	height: 0px; clear: both; display: block; content: "\20";
+}
+.cl {
+	
+}
+
+.container {
+	margin: 0px auto; max-width: 960px;
+}
+
+.red-btn {
+	border-radius: 10px; width: 100px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; display: inline-block; background-color: rgb(251, 107, 132); -moz-border-radius: 15px; -webkit-border-radius: 15px; -ms-border-radius: 15px;
+}
+.red-btn:hover {
+	color: rgb(255, 255, 255); background-color: rgb(249, 136, 155);
+}
+
+.closebtn {
+	top: 10px; width: 22px; height: 22px; text-align: center; right: 10px; line-height: 22px; font-size: 16px; display: block; position: absolute; cursor: pointer;
+}
+.closebtn:hover {
+	color: rgb(251, 107, 132);
+}
+.closebtn::selection {
+	background: 0px;
+}
+
+.auto-container {
+	max-width: 960px;
+}
+
+.chapter-read {
+	margin: 0px 0px 10px; padding: 1px 2px 2px; border: 1px solid rgb(217, 202, 202); border-image: none;
+}
+.chapter-read .chapter-title {
+	height: 70px; text-align: center; color: rgb(102, 102, 102); line-height: 70px; overflow: hidden; font-size: 36px; font-weight: normal; -ms-zoom: 1;
+}
+.chapter-read .chapter-subtitle {
+	height: 24px; text-align: center; color: rgb(153, 153, 153); overflow: hidden; font-size: 12px; -ms-zoom: 1;
+}
+.chapter-read .chapter-subtitle i {
+	padding: 0px 17px; font-style: normal;
+}
+.chapter-read .chapter-subtitle a {
+	color: rgb(153, 153, 153);
+}
+.chapter-read .chapter-subtitle a:hover {
+	color: rgb(251, 107, 132);
+}
+.chapter-read .red-btn {
+	margin: 20px auto 0px; border-radius: 30px; width: 160px; height: 60px; line-height: 60px; font-size: 24px; display: block; -moz-border-radius: 30px; -webkit-border-radius: 30px; -ms-border-radius: 30px;
+}
+.chapter-main {
+	margin: 5px 0px 0px; color: rgb(51, 51, 51); overflow: hidden; font-family:Microsoft YaHei; font-size: 20px; -ms-zoom: 1;
+}
+.chapter-main p {
+	margin: 0px 0px 0.5em; line-height: 2; -ms-word-break: break-all; overflow-wrap: break-word;
+}
+/*
+.left-sub-menu {
+	left: 0px; top: 30px; position: fixed; z-index: 990; _position: absolute;
+}*/
+.left-sub-menu .closebtn {
+	color: rgb(85, 85, 85);
+}
+.nav-set {
+	border-width: 0px 0px 0px; border-style: solid solid none; border-color: rgb(217, 202, 202) rgb(217, 202, 202) currentColor; border-image: none; width: 58px; _overflow: hidden;
+}
+.nav-set li .nav-icon {
+padding: 5px 5px 5px 5px;  border-width: 1px 1px 0px; text-align: center; color: white; line-height: 22px; font-size: 1.5em; background-color: #338833; float: left; position: relative;
+}
+
+.theme_black .magical-rec .unusual-heng-list li a:hover {
+	color: rgb(251, 107, 132);
+}
+
+.nav-box {
+	border: 1px solid rgb(217, 202, 202); border-image: none; left: 0px; top: 35px; width: 370px; position: absolute; z-index: 1; box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+.nav-box .nav-hd {
+	height: 42px; line-height: 42px;
+}
+.nav-box .nav-hd h3 {
+	padding: 0px 0px 0px 10px; color: rgb(85, 85, 85); font-size: 1em; font-weight: normal;
+}
+.nav-box .nav-bd {
+	height: 340px;
+}
+
+.resize-action {
+	padding: 10px;
+}
+.resize-action dd {
+	margin: 0px 0px 12px; height: 36px; color: rgb(85, 85, 85); line-height: 36px; overflow: hidden; -ms-zoom: 1;
+}
+.resize-action dd .label {
+	margin: 0px 8px 0px 0px; float: left; display: inline;
+}
+.resize-action dd .form {
+	float: left;
+}
+.resize-action dd span::selection {
+	background: 0px;
+}
+
+.page-mode .auto-page label::selection {
+	background: 0px;
+}
+.color-mode span {
+	margin: 0px 20px 0px 0px; border-radius: 50%; border: 1px solid rgb(221, 221, 221); border-image: none; width: 28px; height: 28px; text-align: center; line-height: 30px; float: left; position: relative; cursor: pointer; -moz-border-radius: 50%; -webkit-border-radius: 50%; -ms-border-radius: 50%;
+}
+.color-mode span i {
+	left: 0px; top: 0px; width: 28px; height: 28px; color: rgb(251, 107, 132); display: none; position: absolute;
+}
+.color-mode .current {
+	border-color: rgb(251, 107, 132);
+}
+.color-mode .current i {
+	display: block;
+}
+.color-mode .current.mode_black em {
+	display: none;
+}
+
+.color-mode .mode_yellow {
+	background-color: rgb(250, 243, 235);
+}
+.color-mode .mode_orange {
+	background-color: rgb(246, 234, 210);
+}
+.color-mode .mode_green {
+	background-color: rgb(234, 240, 231);
+}
+.color-mode .mode_blue {
+	background-color: rgb(232, 239, 243);
+}
+.color-mode .mode_pink {
+	background-color:#FFF4F4;
+}
+.color-mode .mode_gray {
+	background-color: rgb(229, 229, 229);
+}
+.color-mode .mode_black {
+	border-color: rgb(0, 0, 0); color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);
+}
+
+/*----------------------theme_yellow start--------------------------------------------*/
+.theme_yellow {
+	background: #E5E4DB;
+}
+.theme_yellow .footer {
+	background: #E5E4DB;
+}
+.theme_yellow .chapter-read {
+	background: #F6F4EC;
+}
+.theme_yellow .nav-set {
+	background: #F6F4EC;
+}
+.theme_yellow .chapter-control {
+	background: #F6F4EC;
+}
+.theme_yellow .magical-rec {
+	background: #F6F4EC;
+}
+.theme_yellow .chapter-control {
+	background: #F6F4EC;
+}
+.theme_yellow .nav-box .nav-hd {
+	background: #F6F4EC;
+}
+
+.theme_yellow .nav-box {
+	background: rgb(254, 253, 247);
+}
+/*----------------------theme_orange start--------------------------------------------*/
+.theme_orange {
+	background:#D9CFC5;
+}
+.theme_orange .footer {
+	background:#D9CFC5;
+}
+.theme_orange .chapter-read {
+	background:#F0E6DB;
+}
+.theme_orange .nav-set {
+	background:#F0E6DB;
+}
+.theme_orange .chapter-control {
+	background:#F0E6DB;
+}
+.theme_orange .magical-rec {
+	background:#F0E6DB;
+}
+.theme_orange .chapter-control {
+	background:#F0E6DB;
+}
+.theme_orange .nav-box .nav-hd {
+	background:#F0E6DB;
+}
+
+.theme_orange .nav-box {
+	background: rgb(248, 240, 215);
+}
+/*----------------------theme_green start--------------------------------------------*/
+.theme_green {
+	background:#DCE6DC;
+}
+.theme_green .footer {
+	background:#DCE6DC;
+}
+.theme_green .chapter-read {
+	background:#E6F0E6;
+}
+.theme_green .nav-set {
+	background:#E6F0E6;
+}
+.theme_green .chapter-control {
+	background:#E6F0E6;
+}
+.theme_green .magical-rec {
+	background:#E6F0E6;
+}
+.theme_green .chapter-control {
+	background:#E6F0E6;
+}
+.theme_green .nav-box .nav-hd {
+	background:#E6F0E6;
+}
+
+.theme_green .nav-box {
+	background: rgb(241, 249, 241);
+}
+/*----------------------theme_blue start--------------------------------------------*/
+.theme_blue {
+	background:#DAEBF0
+}
+.theme_blue .footer {
+	background:#DAEBF0
+}
+.theme_blue .chapter-read {
+	background:#E3F5FA;
+}
+.theme_blue .nav-set {
+	background:#E3F5FA;
+}
+.theme_blue .chapter-control {
+	background:#E3F5FA;
+}
+.theme_blue .magical-rec {
+	background:#E3F5FA;
+}
+.theme_blue .chapter-control {
+	background:#E3F5FA;
+}
+.theme_blue .nav-box .nav-hd {
+	background:#E3F5FA;
+}
+
+.theme_blue .nav-box {
+	background: rgb(230, 244, 245);
+}
+/*----------------------theme_pink start--------------------------------------------*/
+.theme_pink {
+	background:#EDE1E8;
+}
+.theme_pink .footer {
+	background:#EDE1E8;
+}
+.theme_pink .chapter-read {
+	background:#FFF4F4;
+}
+.theme_pink .nav-set {
+	background:#FFF4F4;
+}
+.theme_pink .chapter-control {
+	background:#FFF4F4;
+}
+.theme_pink .magical-rec {
+	background:#FFF4F4;
+}
+.theme_pink .chapter-control {
+	background:#FFF4F4;
+}
+.theme_pink .nav-box .nav-hd {
+	background:#FFF4F4;
+}
+
+.theme_pink .nav-box {
+	background: rgb(255, 244, 244);
+}
+/*----------------------theme_gray start--------------------------------------------*/
+.theme_gray {
+	background: rgb(224, 224, 224);
+}
+.theme_gray .footer {
+	background: rgb(224, 224, 224);
+}
+.theme_gray .chapter-read {
+	background: rgb(207, 207, 207);
+}
+.theme_gray .nav-set {
+	background: rgb(207, 207, 207);
+}
+.theme_gray .chapter-control {
+	background: rgb(207, 207, 207);
+}
+.theme_gray .magical-rec {
+	background: rgb(207, 207, 207);
+}
+.theme_gray .chapter-control {
+	background: rgb(207, 207, 207);
+}
+.theme_gray .nav-box .nav-hd {
+	background: rgb(207, 207, 207);
+}
+
+.theme_gray .nav-box {
+	background: rgb(233, 233, 233);
+}
+/*----------------------theme_black start--------------------------------------------*/
+.theme_black {
+	background:#121416;
+}
+.theme_black .footer {
+	background:#121416;
+}
+.theme_black .chapter-read {
+	background:#161819;
+}
+.theme_black .nav-set {
+	background:#161819;
+}
+.theme_black .chapter-control {
+	background:#161819;
+}
+.theme_black .magical-rec {
+	background:#161819;
+}
+.theme_black .chapter-control {
+	background:#161819;
+}
+.theme_black .nav-box .nav-hd {
+	background:#161819;
+}
+.theme_black .nav-set .active_li .nav-icon {
+	background:#121416;
+}
+.theme_black .nav-box {
+	background:#121416;
+}
+.theme_black .closebtn {
+	color: rgb(150, 141, 141);
+}
+.theme_black .catalog-main dt {
+	color: rgb(150, 141, 141);
+}
+.theme_black .nav-box .catalog-list li a {
+	color: rgb(150, 141, 141);
+}
+.theme_black .chapter-main {
+	color: rgb(150, 141, 141);
+}
+.theme_black .qr-code {
+	color: rgb(150, 141, 141);
+}
+.theme_black .magical-rec .unusual-heng-list li {
+	color: rgb(150, 141, 141);
+}
+.theme_black .chapter-control li a em {
+	color: rgb(150, 141, 141);
+}
+.theme_black .magical-rec .unusual-heng-list li a {
+	color: rgb(150, 141, 141);
+}
+.theme_black .closebtn:hover {
+	color: rgb(251, 107, 132);
+}
+.theme_black .catalog-main dt {
+	border-color: rgb(255, 255, 255);
+}
+/*----------------------theme_black end--------------------------------------------*/
+
+.fontfamily-mode span {
+	background: rgb(255, 255, 255); margin: 0px 20px 0px 0px; border-radius: 2px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 78px; height: 34px; text-align: center; line-height: 34px; float: left; cursor: pointer; -moz-border-radius: 2px; -webkit-border-radius: 2px; -ms-border-radius: 2px;
+}
+.fontfamily-mode span:hover {
+	color: rgb(251, 107, 132);
+}
+.fontfamily-mode .current {
+	border-color: rgb(251, 107, 132); color: rgb(251, 107, 132);
+}
+
+.font-color-mode span {
+	background: rgb(255, 255, 255); margin: 0px 20px 0px 0px; border-radius: 2px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 54px; height: 34px; text-align: center; line-height: 34px; float: left; cursor: pointer; -moz-border-radius: 2px; -webkit-border-radius: 2px; -ms-border-radius: 2px;
+}
+.font-color-mode span:hover {
+	color: rgb(251, 107, 132);
+}
+.font-color-mode .current {
+	border-color: rgb(251, 107, 132); color: rgb(251, 107, 132);
+}
+
+
+
+.font-size-mode {
+	background: rgb(255, 255, 255); padding: 2px 0px !important; border: 1px solid rgb(221, 221, 221); border-image: none; height: 2.5em !important; line-height: 2.5em !important;
+}
+.web-width-mode {
+	background: rgb(255, 255, 255); padding: 6px 0px; border: 1px solid rgb(221, 221, 221); border-image: none; height: 22px; line-height: 22px;
+}
+.scrollspeed-mode {
+	background: rgb(255, 255, 255); padding: 2px 0px !important; border: 1px solid rgb(221, 221, 221); border-image: none; height: 2.5em !important; line-height: 2.5em !important;
+}
+.font-size-mode span {
+	width: 92px; text-align: center; font-size: 18px; float: left; cursor: pointer;
+}
+.web-width-mode span {
+	width: 92px; text-align: center; font-size: 18px; float: left; cursor: pointer;
+}
+.scrollspeed-mode span {
+	width: 92px; text-align: center; font-size: 18px; float: left; cursor: pointer;
+}
+
+.font-size-mode .fontsize-text {
+	color: rgb(204, 204, 204); font-size: 16px; border-right-color: rgb(228, 221, 221); border-left-color: rgb(228, 221, 221); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; cursor: default;
+}
+.web-width-mode .websize-text {
+	color: rgb(204, 204, 204); font-size: 16px; border-right-color: rgb(228, 221, 221); border-left-color: rgb(228, 221, 221); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; cursor: default;
+}
+.scrollspeed-mode .speed-text {
+	color: rgb(204, 204, 204); font-size: 16px; border-right-color: rgb(228, 221, 221); border-left-color: rgb(228, 221, 221); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; cursor: default;
+}
+
+.read-mode .auto-read {
+	background: rgb(255, 255, 255); margin: 0px 20px 0px 0px; border-radius: 2px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 98px; height: 34px; line-height: 34px; display: block; cursor: pointer; -moz-border-radius: 2px; -webkit-border-radius: 2px; -ms-border-radius: 2px;
+}
+.read-mode .auto-read .auto-read-btn {
+	border-radius: 2px; transition:margin 0.5s; width: 49px; text-align: center; color: rgb(255, 255, 255); display: block; background-color: rgb(251, 107, 132); -moz-border-radius: 2px; -webkit-border-radius: 2px; -ms-border-radius: 2px;
+}
+.read-mode .auto-read .auto-read-close {
+	margin: 0px 0px 0px 49px; color: rgb(85, 85, 85); background-color: rgb(207, 205, 205);
+}
+.page-mode .auto-page input {
+	margin: -1px 5px 1px 0px;
+}
+
+
+.qr-code {
+	padding: 70px 40px 0px; text-align: center; overflow: hidden; -ms-zoom: 1;
+}
+.qr-code dd {
+	line-height: 34px; font-size: 18px;
+}
+.qr-code dd img {
+	padding: 10px; background-color: rgb(255, 255, 255);
+}
+.qr-code dt {
+	line-height: 60px;
+}
+.resize-action dt {
+	text-align: center;
+}
+.resize-action dt .red-btn {
+	margin: 0px 10px; border-radius: 4px; font-size: 16px;
+}
+.resize-action dt .resize-cancel {
+	background: 0px; border: 1px solid rgb(251, 107, 132); border-image: none; height: 28px; color: rgb(251, 107, 132); line-height: 28px;
+}
+.resize-action dt .resize-cancel:hover {
+	color: rgb(255, 255, 255); background-color: rgb(251, 107, 132);
+}
+.right-sub-menu {
+	margin: 0px 0px 0px 490px; left: 50%; bottom: 0px; position: fixed; z-index: 990; _position: absolute;
+}

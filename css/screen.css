@@ -1,0 +1,234 @@
+body {
+	background-color:#ECEFE0;
+	color:#A52A2A;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+}
+
+.container {
+
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	*zoom:1;
+}
+
+h1, h2 {  }
+
+h1 {
+	color:#7DBADF;
+	font-size:1.4em;
+	margin:0;
+}
+
+h2 {
+	font-size:1.1em;
+	margin:5px 0;
+	letter-spacing:.1em;
+}
+
+h3 {
+	font-size:1em;
+	margin:10px 0 10px 10px;
+}
+
+a:link,a:visited {
+	color:#7097af;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#7DBADF;
+}
+
+a img {
+	border:none;
+}
+
+.daoh {
+text-align:center
+}
+sup{
+	font-size:0.5em;
+	color:#FF0000;
+
+}
+.lead {
+	font-size:1.6em;
+	margin-bottom:40px;
+}
+
+.clear {
+	clear:both;
+	line-height:0;
+	font-size:0;
+}
+
+/* ============ TIMELINE ============= */
+
+.timelineContainer {
+	border-left:2px solid #ccc;
+	margin:16px auto;
+}
+
+div.timelineToggle {
+	margin-right:0;
+	white-space:nowrap;
+}
+
+a.expandAll {
+	color:#ccc;
+	cursor:pointer;
+	background:#000;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	font-size:12px;
+	padding:3px 5px;
+}
+
+	a.expandAll:hover {
+		color:#7DBADF;
+		cursor:pointer;
+	}
+
+div.timelineMajor {
+	clear:left;
+	float:left;
+	margin:0 0 12px;
+}
+
+	.timelineMajor h2 {
+		background:url(../images/timeline_century_tick.gif) left center no-repeat;
+		font-family:Palatino,"Times New Roman", Times, serif;
+		cursor: pointer;
+		font-size:1.4em;
+		margin:0 0 10px;
+		padding:4px 4px 4px 20px;
+	}
+
+	.timelineMajor h2 span {
+		background:#ccc;
+		-webkit-border-radius:4px;
+		-moz-border-radius:4px;
+		border-radius:4px;
+		color:#131313;
+		letter-spacing:.1em;
+		line-height:1.5em;
+		padding:3px 5px 1px;
+	}
+
+dl.timelineMinor {
+	clear:left;
+	float:left;
+	margin:0 12px 0 0;
+	padding:4px 4px 4px 0;
+	position:relative;
+}
+
+	.timelineMinor dt {
+		background:url(../images/timeline_decade_tick.gif) left center no-repeat;
+		clear:left;
+		font-size:1.05em;
+		list-style-type:none;
+		line-height:1.8em;
+		margin:12px 0 12px;
+		padding:0 0 0 20px;
+		white-space:nowrap;
+	}
+
+		.timelineMinor dt a {
+			color:#000000;
+			cursor:pointer;
+		}
+
+		.timelineMinor dt a.closed {
+			color:#000000;
+			font-size:1em;
+			margin-left:0;
+		}
+
+		.timelineMinor dt a.open {
+			color:#0000FF;
+		}
+
+		.timelineMinor dt a:hover {
+			color:#0000FF;
+		}
+
+	.timelineMinor dd {
+		padding-left:24px;
+		width:100%;
+	}
+
+		.timelineMinor dd h3 {
+			color:#000000;
+			clear:both;
+			float:left;
+			font-size:1em;
+			margin:0;
+			white-space:nowrap;
+		}
+
+.timelineEvent
+{
+	background-color:#FCFEF6;
+	color:#000000;
+	width:98%;
+}
+.timelineEvent p{
+	clear:left;
+	color:#000000;
+	line-height:1.5em;
+	margin:0 10px 0;
+
+} 
+
+.timelineEvent h4 {
+	clear:left;
+	font-size:1em;
+	margin:0 10px 0;
+
+}
+
+.timelineEvent blockquote {
+	border-left:2px solid #ccc;
+	clear:left;
+	float:left;
+	font-size:1em;
+	margin-left:0;
+	padding:0 30px;
+
+}
+
+.timelineEvent blockquote .attribution{
+	font-size:1em;
+	text-align: right;
+}
+
+
+.timelineEvent div.media {
+	float:right;
+	padding:0 0 12px;
+
+}
+
+	.timelineEvent .media img {
+		border:2px solid #000;
+		margin:0;
+	}
+
+	.timelineEvent .media p {
+		font-size:1em;
+		margin:0;
+		padding:0;
+	}
+
+	.timelineEvent .media a:link,.timelineEvent .media a:visited {
+		color:#ab221b;
+	}
+
+	.timelineEvent .media a:hover {
+		color:#7DBADF;
+	}
