@@ -1,0 +1,104 @@
+
+body {
+ margin: 1 auto;
+ background-color:#E0E0E0;
+}
+a{ text-decoration:none}
+a:link {color:#000079;}		/* 未被访问的链接 */
+a:visited {color:#000079;}	/* 已被访问的链接 */
+a:hover {color:#AE0000;}	/* 鼠标指针移动到链接上 */
+a:active {color:#AE0000;}	/* 正在被点击的链接 */
+
+p {
+  padding-left : 2em;
+  margin: 10px 0;
+}
+p:first-letter {
+  margin-left: -2em;
+}
+
+#faq {
+ font-size: 16px;
+ background: #E0E0E0;/* 后加背景色 */
+}
+#faq li {
+ margin: 0 0 6px;
+ padding: 0 0 2px;
+}
+#faq dl {
+ margin: 0;
+ padding:0;
+ display:inline;
+}
+#faq dt {
+
+ cursor:pointer;
+ line-height: 130%;
+ padding: 2px 0 3px auto;
+
+ font-size:16pt;
+ color:#333;
+}
+
+#faq dd {
+	display: none;
+	background: #FFFFFF;/* 原来背景色是E0E0E0 */
+	max-height: 250px;
+	padding: 0 0 1px 6px;
+	margin-left:0px;
+	overflow-y:scroll;
+	overflow-x:visible;
+}
+
+#AA1{
+FONT-WEIGHT: bold;
+font-size: 18px;
+color:#000;
+ }
+#AA2{
+ font-size: 18px;
+ color:#000;
+ }
+.AA3{
+ font-size: 1em;
+ padding-left : 2em;
+ color:#000;
+ }
+
+.AA2 { 
+color : #008000; 
+text-align : center;
+font-weight : bolder;
+font-size : 1.3em; 
+} 
+
+#CC1 { 
+color : #000000;
+font-size : 1.15em; 
+font-weight : bolder; 
+} 
+#CC2 { 
+color : #000000;
+padding-left : 3em;
+padding-right : 0.5em;
+font-size : 1.1em; 
+font-weight : bolder; 
+} 
+#CC3 { 
+color : #000000;
+padding-left : 4em;
+font-size : 1.05em; 
+} 
+#CC4 { 
+color : #000000;
+padding-left : 4.75em;
+font-size : 1em; 
+} 
+
+.DD { 
+color : #000000;
+padding-left : 2em;
+text-indent : 1em; 
+font-size : 0.9em;
+font-style:italic;
+} 

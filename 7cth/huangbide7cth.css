@@ -1,0 +1,85 @@
+body
+{
+margin: 1 auto;
+	font-family: 'Roboto Condensed',"Apple LiGothic Medium", Tahoma, Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "SimSun", sans-serif;
+	font-size: 18px;
+	color: #2A2A2A;
+	background-color: #E0E0E0;
+	background-repeat:repeat-x;
+	hr { 
+margin : 10px 5px 10px 10px; 
+border-top : 1px solid #008000; 
+} 
+}
+p {
+  padding-left : 2em;
+  margin: 10px 0;
+}
+p:first-letter {
+  margin-left: -2em;
+}
+.CC1 {
+  color:#000000;
+  font-weight : bolder; 
+  font-size :1.4em; 
+}
+.CC2 {
+  color:#000000;
+  padding-left : 3em;
+  font-weight : bolder; 
+  font-size :1.4em; 
+}
+.CC3 {
+  color:#000000;
+  padding-left : 4em;
+
+  font-size :1.3em; 
+}
+.CC4 {
+  color:#000000;
+  padding-left : 4.75em;
+   font-size :1.3em; 
+}
+.AA1 {
+    text-align:center;
+    font-size:1.3em;
+    color:#FFFFFF;
+    FONT-WEIGHT: bold;
+    padding-top: 3px;
+    padding-bottom:5px;
+    background-color:#338833;
+	text-decoration: none;
+}
+
+.AA2 { 
+color : #008000; 
+text-align : center;
+font-weight : bolder;
+font-size : 1.2em; 
+} 
+.AA3 { 
+color : #000000;
+padding-left : 0.5em;
+text-indent : 3em; 
+font-size : 1.35em; 
+} 
+
+
+.DD { 
+color : #000000;
+padding-left : 2em;
+text-indent : 1em; 
+font-size : 0.9em;
+font-style:italic;
+} 
+.EE { 
+color : #000000; 
+padding-left : 3em; 
+margin-left: -0.5em;
+font-weight : bolder;
+font-size : 1.25em; 
+} 
+.AA2BJ {
+    padding-top: 3px;padding-bottom: 2px;
+	text-decoration: none;border:1px solid #C8C8C8;background-color:#CCCCCC;
+}
